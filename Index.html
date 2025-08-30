@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="Style.css"> -->
+    <title>XYZ Laundary Shop</title>
+</head>
+<body>
+    <nav class="navlinks" >
+        <ul class="list"> 
+            <li class="item">Home</li>
+            <li class="item">Services</li>
+            <li class="item">Contact us</li>
+            <li class="item"> About Us</li>
+            
+        </ul>
+        <div class="username">Username</div>
+    </nav>
+    <div class="container">
+<div class="hero-left">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRajAK27FkOIONpTCv3l4D56A9OxcinmAPpqw&s" alt="Washingmechine">
+
+</div>
+<div class="hero-right">
+    <h1>Revitalize Your<br/> Clothes with Expert </h1>
+    <h3 class="highlight"> Laundary Services!</h3>
+    <p> For premium dry cleainng to swift wiash and fold , we deliver care and convenience sechedule a pickup and rediscover the freshness of your clothes today !</p>
+<button class="button"> Book a service today!</button>
+</div>
+
+    </div>
+    <style>
+        *{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navlinks{
+    padding: 15px 50px;
+    background-color: lightseagreen;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.username{
+
+    color: white;
+    display: end;
+    font-size: 1.3rem;
+      align-items: end;
+      padding: 8px 18px;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      background-color: lightskyblue;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 1.4rem;
+    color: beige;
+    text-align: center;
+}
+.item:hover{
+    transition: 1s;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    transform: translatex(5px)
+}
+.username:hover{
+    transition: 1s;
+    color: black;
+    cursor: pointer;
+}
+.hero-left{
+
+    flex-basis: 40%;
+}
+.hero-right{
+    flex-basis: 60%;
+    align-items: center;
+    max-width: 50%;
+}
+h1{
+    color: black;
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.hero-left > span{
+    color: cyan;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    /* background-color: #07bff0; */
+}
+.hero-right p{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+.button{
+    background-color: #07bff0;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    padding: 20px 35px;
+    cursor: pointer;
+}
+img{
+    max-width: 600px;
+    width: 400px;
+}
+.highlight{
+    color: lightseagreen;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+    </style>
+        
+
+</body>
+</html>
